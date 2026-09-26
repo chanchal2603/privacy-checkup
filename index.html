@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Checkup</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔐 Privacy Checkup</h1>
+
+        <p class="intro">
+            Check which permissions you should review
+            before giving an app access to your information.
+        </p>
+
+        <h2>Select Permissions</h2>
+
+        <label>
+            <input type="checkbox" value="Location">
+            📍 Location
+        </label>
+
+        <label>
+            <input type="checkbox" value="Camera">
+            📷 Camera
+        </label>
+
+        <label>
+            <input type="checkbox" value="Microphone">
+            🎤 Microphone
+        </label>
+
+        <label>
+            <input type="checkbox" value="Contacts">
+            👥 Contacts
+        </label>
+
+        <label>
+            <input type="checkbox" value="Photos">
+            🖼️ Photos / Files
+        </label>
+
+        <button onclick="checkPrivacy()">
+            Check My Privacy
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>  
+
